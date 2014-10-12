@@ -6,11 +6,13 @@ def anagram?(word1, word2)
 end
 
 def rot13(word)
-  return word.tr('a-z', 'n-za-m')
+  word.tr('a-z', 'n-za-m')
 end
 
 get '/' do
-  'Enter /anagram and two words at the end of the url to see if they are anagrams (example: /carp/crap)'
+  'Enter /anagram and two words at the end of the url to see if they are
+  anagrams (example: /anagram/carp/crap) or /rot13 and a word to encrypt
+  (example: /rot13/clerk)'
 end
 
 get '/anagram/:word1/:word2' do
