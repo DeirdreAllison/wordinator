@@ -25,3 +25,7 @@ To decrypt, take result and run again:
   Output: "clerk"
 
 Thanks to class examples including Javier, Derek and Cenk for ideas on how to create this project.
+
+License:
+
+MIT: [http://deirdre.mit-license.org/](http://deirdre.mit-license.org/)
